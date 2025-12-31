@@ -17,8 +17,8 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![LinkedIn][dhruv-linkedin-shield]][dhruv-linkedin-url]
 [![Ayush's LinkedIn][ayush-linkedin-shield]][ayush-linkedin-url]
+[![LinkedIn][dhruv-linkedin-shield]][dhruv-linkedin-url]
 
 
 <h3 align="center">✨ Image Beautifier ✨</h3>
@@ -60,14 +60,27 @@ https://github.com/user-attachments/assets/7e806e29-ad7e-4d4b-8be1-0ad3a6ba16a0
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Image Beautifier makes transforming your images fast and easy! It is built in Go using Goroutines. It utilizes primitives like wait groups and design patterns like pipelines and worker pools for effective concurrency.
 
-You can transform images in the following ways:
-* Blur
-* Flip upside down
-* Grayscale
-* Resize
-* Add random cat images 🐱
+This Image Beautifier is a concurrent image‑processing tool built in Go.  
+It uses Goroutines, wait groups, and a pipeline‑based architecture to apply fast and efficient transformations to images.
+
+Supported transformations include:
+- Blur  
+- Grayscale  
+- Resize  
+- Flip upside down  
+- Add random cat images 🐱
+
+## Collaboration
+
+This project was developed collaboratively by:
+
+- **Ayush Sharma** — https://github.com/ayushs1707  
+- **Dhruv Patel** — https://github.com/dhruvp987  
+
+This repository contains my personal copy of the project for portfolio and academic use.  
+The structure and idea were developed together, and both contributors share credit for the work.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -94,7 +107,7 @@ Here's how you can run Image Beautifier locally.
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/dhruvp987/ImageBeautifier.git
+  ayushs1707/image-editor-group-project
    ```
 2. Compile the Go source into a single executable called imagebeautifer
    ```sh
